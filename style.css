@@ -194,19 +194,19 @@
       font-weight: 790;
   }
 
-  @media (max-width: 780px) {
-    .icons {
-        width: 100%;
+@media screen and (max-width: 780px) {
+    .page {
+        width: min(90vw, 28rem);
+        max-height: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
     }
-    .storage-wrap {
-        width: 100%;
-    }
+
+    .icons,
+    .storage-wrap,
     .storage {
         width: 100%;
     }
-    .progress {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-  }
+
+  
